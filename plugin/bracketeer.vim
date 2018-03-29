@@ -1,6 +1,5 @@
 let s:affectedLines = []
 let s:lineNr = 0
-let s:leadingBracketRegex = '\(\w\+\)\(.*\)({)$'
 
 function! GetAffectedLines()
     while s:lineNr < line('$')
